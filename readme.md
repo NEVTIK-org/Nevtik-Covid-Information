@@ -14,7 +14,7 @@
 - flaticon.com
 - unsplash.com
 - boxicons.com
-- charj.js 2.6
+- chart.js 2.6
 
 **Font**
 
