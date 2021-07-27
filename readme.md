@@ -14,6 +14,7 @@
 - flaticon.com
 - unsplash.com
 - boxicons.com
+- charj.js 2.6
 
 **Font**
 
@@ -28,4 +29,3 @@
 - disease.sh
 - https://github.com/Reynadi531/api-covid19-indonesia-v2
 - https://github.com/satyawikananda/rs-bed-covid-indo-api
-
