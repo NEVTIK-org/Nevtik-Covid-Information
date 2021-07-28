@@ -30,6 +30,8 @@
 - https://github.com/Reynadi531/api-covid19-indonesia-v2
 - https://github.com/satyawikananda/rs-bed-covid-indo-api
 
+## Fungsi file javascript
+
 **/js**
 
 - countUp.min.js -> Member efek menghitung pada angka data kasus covid
