@@ -243,7 +243,6 @@ nav .navbar-nav a:hover{
     z-index: -1;
     width: 100%;
     height: 80%;
-    filter: brightness(80%);
 }
 
 .main .right-content{
@@ -259,10 +258,18 @@ nav .navbar-nav a:hover{
 .main .right-content .text h1{
     font-size: 80px;
     font-weight: 700;
+    color: #FBF9FA;
+    background-color: #A80038;
+    display: inline;
+    margin: 0 !important;
+    padding: 0 10px;
+    border-radius: 10px;
 }
 
 .main .right-content .text p{
     font-size: 25px;
+    margin-top: 15px;
+    color: #2B2024;
 }
 
 /*Scroll Indicator*/
