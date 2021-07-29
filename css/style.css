@@ -364,8 +364,8 @@ nav .navbar-nav a:hover{
 
 
 .nav-tabs .nav-link.active {
-    background-color: #5e454b !important;
-    color: #fff !important;
+    background-color: #A80038 !important;
+    color: #FBF9FA !important;
     outline: none;
     font-weight: 600;
 }
@@ -377,7 +377,7 @@ nav .navbar-nav a:hover{
 }
 
 .tab-pane{
-    border-top: 1px solid #5e454b !important;
+    border-top: 1px solid #2B2024 !important;
     padding-top: 30px;
 }
 
