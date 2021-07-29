@@ -24,15 +24,15 @@ nav .navbar-nav a{
     margin: 0 5px;
     width: 150px;
     text-align: center;
-    color: #fff;
+    color: #FBF9FA;
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
 }
 
 nav .navbar-nav a:hover{
-    background-color: #fff;
-    color: #5e454b;
+    background-color: #FBF9FA;
+    color: #A80038;
     font-weight: 600;
 }
 
@@ -43,16 +43,16 @@ nav .navbar-nav a:hover{
 }
 
 .bg-transparant.nav-scroll{
-    background-color: #fff !important;
+    background-color: #FBF9FA !important;
 }
 
 .bg-transparant.nav-scroll .navbar-nav a{
-    color: #5E454B;
+    color: #2B2024;
 }
 
 .bg-transparant.nav-scroll .navbar-nav a:hover{
-    background-color: #5e454b;
-    color: #fff;
+    background-color: #A80038;
+    color: #FBF9FA;
     font-weight: 600;
 }
 
