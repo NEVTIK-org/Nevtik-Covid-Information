@@ -260,7 +260,7 @@ nav .navbar-nav a:hover{
     color: #FBF9FA;
     background-color: #A80038;
     display: inline;
-    margin: 0 !important;
+    margin: 0;
     padding: 0 10px;
     border-radius: 10px;
 }
@@ -315,22 +315,24 @@ nav .navbar-nav a:hover{
 
     .main .left-content img{
         width: 100%;
-        height: 300px;
+        height: 100%;
     }
 
     .main .right-content{
         width: 100%;
-        padding: 20px;
+        padding: 0;
         color: #5E454B;
         text-align: center;
     }
 
     .main .right-content .text h1{
         font-size: 60px;
+        padding: 0 10px;
     }
 
     .main .right-content .text p{
         font-size: 20px;
+        padding: 0 20px;
     }
 
 }
