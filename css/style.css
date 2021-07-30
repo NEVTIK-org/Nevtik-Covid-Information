@@ -324,6 +324,10 @@ nav .navbar-nav a:hover{
         color: #5E454B;
         text-align: center;
     }
+    
+    .main .right-content .text{
+        padding-top: 20px;
+    }
 
     .main .right-content .text h1{
         font-size: 60px;
