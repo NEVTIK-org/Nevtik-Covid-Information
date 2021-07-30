@@ -856,7 +856,7 @@ nav .navbar-nav a:hover{
 }
 /* end loader */
 
-form input {
+form#covidSearch input {
     border: none;
     border-radius: 10px;
     padding: 10px 15px;
@@ -868,11 +868,11 @@ form input {
     color: #fff;
 }
 
-form{
+form#covidSearch{
     color: #5E454B;
 }
 
-form button {
+form#covidSearch button {
     border-radius: 10px;
     padding: 10px;
     background-color: #5E454B;
@@ -883,18 +883,18 @@ form button {
     color: #fff !important;
 }
 
-form input:hover, form button:hover {
+form#covidSearch input:hover, form#covidSearch button:hover {
     position: relative;
     top: 2px;
     box-shadow: 1px 1.1px 1.2px rgba(0, 0, 0, 0.705);
 }
 
-form input:focus {
+form#covidSearch input:focus {
     outline: none;
     border: 0;
 }
 
-form i.virus-loader {
+form#covidSearch i.virus-loader {
     font-size: 5em;
 }
 
@@ -963,7 +963,7 @@ input#searchProvinsi:focus {
         width: 100%;
     }
 
-    form input {
+    form#covidSearch input {
         width: 60%;
     }
 
@@ -1029,7 +1029,9 @@ input#searchProvinsi:focus {
     color: #5e454b;
 }
 
-option {
+#selectProvinsi option,
+#selectCity option,
+#bedType option {
     color: #5e454b;
 }
 
