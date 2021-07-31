@@ -297,7 +297,7 @@ nav .navbar-nav a:hover{
 }
 
 /*Main Content Responsive*/
-@media screen and (min-width:300px) and (max-width: 800px){
+@media screen and (min-width:300px) and (max-width: 900px){
 
     .main{
         flex-wrap: wrap;
@@ -339,6 +339,46 @@ nav .navbar-nav a:hover{
         padding: 0 20px;
     }
 
+}
+
+@media screen and (min-width:901px) and (max-width: 1200px){
+    .main .left-content{
+        width: 50%;
+    }
+
+    .main .left-content .image{
+        width: 100%;   
+    }
+
+    .main .left-content img{
+        height: 100%;
+    }
+
+    .main .right-content{
+        width: 50%;
+    }
+
+    .main .right-content{
+        padding-left: 20px;
+    }
+
+    .main .right-content .text h1{
+        font-size: 60px;
+    }
+
+    .main .right-content .text p{
+        font-size: 20px;
+    }
+
+    /*Scroll Indicator*/
+    .scroll .head h1{
+        font-size: 18px;
+    }
+
+    .indicator i{
+        font-size: 30px;
+        margin-top: 15px;
+    }
 }
 
 
