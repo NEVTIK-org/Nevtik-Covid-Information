@@ -200,7 +200,7 @@ nav .navbar-nav a:hover{
 
 /* 571-800 Width */
 
-@media screen and (min-width:571px) and (max-width:800px){
+@media screen and (min-width:571px) and (max-width:900px){
 
     .first-content .content .head-word p{
         font-size: 28px;
