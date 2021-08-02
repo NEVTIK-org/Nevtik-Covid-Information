@@ -15,6 +15,31 @@ body {
     overflow-x: hidden;
 }
 
+/* BG CHOCOLATE */
+.bg-chocolate {
+    background-color: #5e454b;
+}
+
+.text-chocolate {
+    color: #5e454b;
+}
+
+/* SCROLL ANIMATION */
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+
+
+
 /* Navbar */
 nav.navbar .navbar-brand{
     padding: 5px 0 5px 40px;
@@ -56,14 +81,7 @@ nav .navbar-nav a:hover{
     font-weight: 600;
 }
 
-/* BG CHOCOLATE */
-.bg-chocolate {
-    background-color: #5e454b;
-}
 
-.text-chocolate {
-    color: #5e454b;
-}
 
 /* Responsive Navbar*/
 @media screen and (min-width:300px) and (max-width: 575px){
@@ -734,19 +752,7 @@ nav .navbar-nav a:hover{
     }
 }
 
-/* SCROLL ANIMATION */
-.reveal{
-    position: relative;
-    transform: translateY(150px);
-    opacity: 0;
-    transition: all 2s ease;
-}
 
-.reveal.active{
-    transform: translateY(0px);
-    opacity: 1;
-}
-/* SCROLL ANIMATION */
 
 /* Second Main Content | Fourth Content*/
 .tab-pane:nth-child(4) .text{
